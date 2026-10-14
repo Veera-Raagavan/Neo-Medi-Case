@@ -175,7 +175,7 @@ The Neo Medi Case shows how microcontroller technology and simple mechanical act
 
 ## Author
 
-**Your Name**
+**Veera Raagavan**
 
 ---
 
