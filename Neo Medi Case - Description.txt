@@ -1,0 +1,11 @@
+The Neo Medi Case is an automatic medicine dispensing box built to help patients take their medication on time. It is especially aimed at elderly people and those with chronic illnesses, who often forget doses. Missed or delayed doses can reduce treatment effectiveness and lead to health complications, so the project automates reminders and access to medicine.
+
+The system is built around an Arduino Uno microcontroller, which runs the timing and control logic. A single servo motor opens the medicine compartment, a buzzer alerts the patient, and jumper wires and a power supply complete the circuit. The hardware is simple, low-cost and easy to assemble.
+
+The system works across three daily intervals: morning, afternoon and night. For each dose, the servo rotates to a preset angle: 30°, 45° and 90° respectively. When the scheduled time arrives, the servo moves to its position and the buzzer sounds to alert the patient. After a short delay, which gives the patient time to take the medicine, the servo returns to its closed position at 0°. The cycle repeats automatically for every dose.
+
+The project has several applications. It can support elderly patients who need dose reminders, people with chronic illnesses who must follow strict schedules, and home healthcare setups that promote independence. It can also be adapted for clinics and for patients living alone. Its main advantages are timely medication intake, reduced dependence on caregivers, ease of use and customization, and low cost. It can also be modified for more doses or multiple users.
+
+There is clear room for improvement. A real-time clock (RTC) module would give accurate timekeeping, an LCD would let users view schedules, and Wi-Fi or Bluetooth would allow remote monitoring and mobile notifications for caregivers. Multiple servo-controlled compartments and a "medicine taken" confirmation button would make the system more reliable and practical.
+
+In conclusion, the Neo Medi Case shows how microcontroller technology and simple mechanical actuation can be combined to solve a real healthcare problem. By improving convenience and encouraging consistent medication use, it is a practical step toward integrating technology into everyday patient care.
